@@ -12,7 +12,7 @@ Insert the USB drive and now restart the computer and press F2 to enter the BIOS
 After entering the BIOS mode there will be 2 drive 1)Windows boot manager and 2)The drive which we inserted(UE-005).
 switch the UE-005 drive to First. Press F10 to save and exit.
 
-As the usb drive will run then we have to choose the disk which we created for installation of Linux unoccupied of the Windows OS 
+As the usb will run then we have to choose the disk which we created for installation of Linux unoccupied of the Windows OS 
 set the date and time and select keyboard English(United States).
 
 we have to create the password for root  :- root password
