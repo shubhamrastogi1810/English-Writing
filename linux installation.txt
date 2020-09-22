@@ -1,0 +1,57 @@
+								Linux Installation
+
+
+•	Download the Linux version and distributor you want to install and the current version we are installing is CentOS Linux 7.8 from the browser.
+
+•	The downloaded version needs to be flashed to the 
+	USB or hard disk. (we are flashing the downloaded file as we want to provide an interface manager to the windows laptop.)
+
+•	Now to download Linux into the Windows Installed Drive we have to shrink the os drive and will automatically make partition of 
+	100 GB (unoccupied) in the drive.
+
+•	Insert the USB drive and now restart the computer and press F2 to enter the BIOS mode (Keys might differ in other PCs to enter the BIOS mode).
+
+•	After entering the BIOS mode there will be 2 drive 1)Windows boot manager and 2)The drive which we inserted(UE-005).
+	switch the UE-005 drive to First. Press F10 to save and exit.	
+
+•	As the usb drive will run then we have to choose the disk which we created for installation of Linux unoccupied of the Windows OS 
+	set the date and time and select keyboard English(United States).
+
+•	we have to create the password for root  :- root password
+
+•	now we create our user for working named username:- password
+
+•	All the operation for installation and modification should be done  by the root user otherwise work in  the centos user.
+
+•	Now we are done with the centos minimal installation.
+	Which is CLI only.
+
+•	Now to configure the Wi-Fi we need to type 
+	nmtui command.
+ 	Add a network ->set SSID password and we are good with the connection.
+
+•	Now we have to download & install  the GNOME packages online 
+	By the command
+	yum groupinstall “GNOME Desktop”. Multiple options are available for the GUI.
+
+•	Packages will be downloaded and will be installed accordingly.
+
+•	Here the GNOME packages are installed and not will be available to use by default so we have to set it.
+
+•	So. To set-up default type the command,
+	system set-default graphical.target
+     	and 
+	to start the graphical interface type command 
+	startx
+
+•	Now you are done with the  centos linux installation version 7.8 with the graphical interface.
+
+•	To install python on linux we have to become the root user by typing command
+ 	 sudo  and enter the password and then command yum install -y python3
+
+•	Which will start downloading the python and start installing it.
+
+•	To go to our username type su -username and type password for centos username.
+
+•	type python will open the shell and to create a script in python type vi filename.py .
+
